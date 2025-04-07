@@ -18,7 +18,7 @@ const App = () => {
   const [todos, setTodos] = useState(() => generateTodos())
 
   let allTodos = useMemo(() => {
-    return todos
+    return [...todos]
   }, [])
 
   let activeTodos = useMemo(() => {

@@ -1,1 +1,11 @@
+.completed{
+    text-decoration: line-through;
+}
 
+.active{
+    text-decoration: none;
+}
+
+li{
+    margin-bottom: 12px;
+}
